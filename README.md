@@ -41,8 +41,11 @@ restart rsyslog service
 
 `systemctl restart rsyslog.service`
 
-### Run the below script from the AlphaServer for count of SSH attempts
+### Bash Script to get the count
 
-`./<scriptname>.sh`
+Copy the sshCount.sh script onto the AlphaServer. Run the script from the AlphaServer for count of ssh log-in attempts
 
-`Eg: There were 0 attempts attempts from the AlphaClients`
+`./sshCount.sh`
+
+`Result:
+There were 0 attempts attempts from the AlphaClients`
